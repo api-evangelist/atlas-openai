@@ -1,0 +1,73 @@
+aid: atlas-openai
+name: ChatGPT Atlas
+description: ChatGPT Atlas is OpenAI's Chromium-based AI browser, launched October 21, 2025 for macOS, with Windows, iOS, and Android announced as coming soon. It embeds ChatGPT as a sidebar assistant for page summarization, comparison, and cursor-chat text rewriting, plus an Agent Mode (paid Plus/Pro) that can browse and act on the user's behalf to book hotels, create documents, and run multi-step tasks. Consumer browser product with no publicly documented REST API surface.
+image: https://openai.com/images/atlas-og.png
+tags:
+  - AI
+  - Browser
+  - Consumer
+  - Agent
+  - Chromium
+  - ChatGPT
+  - OpenAI
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+position: Consuming
+kind: contract
+access: 3rd-Party
+apis: []
+common:
+  - url: https://openai.com/index/chatgpt-atlas/
+    type: Website
+  - url: https://openai.com/atlas/
+    type: Product
+  - url: https://chatgpt.com/atlas
+    type: Download
+  - url: https://openai.com/
+    type: ParentCompany
+  - url: https://openai.com/blog
+    type: Blog
+  - url: https://openai.com/news
+    type: News
+  - url: https://help.openai.com/
+    type: Support
+  - url: https://openai.com/policies/privacy-policy
+    type: PrivacyPolicy
+  - url: https://openai.com/policies/terms-of-use
+    type: TermsOfService
+  - url: https://openai.com/chatgpt/pricing
+    type: Pricing
+  - url: https://status.openai.com/
+    type: StatusPage
+  - url: https://x.com/OpenAI
+    type: X (Twitter)
+  - url: https://www.linkedin.com/company/openai
+    type: LinkedIn
+  - url: https://github.com/openai
+    type: GitHubOrganization
+  - type: Features
+    data:
+      - Chromium-based AI browser developed by OpenAI
+      - Released October 21, 2025 (macOS first; Windows, iOS, Android coming)
+      - ChatGPT sidebar assistant for page summary, comparison, and analysis
+      - Cursor chat for inline text rewriting on any page
+      - Browser memory for contextual recall across sessions
+      - Agent Mode (Plus/Pro paid tiers) for autonomous task execution
+      - Tab organization with vertical tabs (added Nov 2025)
+      - Freemium model tied to existing ChatGPT subscriptions
+    sources:
+      - https://openai.com/index/chatgpt-atlas/
+      - https://en.wikipedia.org/wiki/ChatGPT_Atlas
+    updated: '2026-05-23'
+  - type: Notes
+    data:
+      - No public REST/GraphQL API is documented for the Atlas browser itself.
+      - OpenAI's developer API platform (api.openai.com) is a separate product line covered elsewhere.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    email: info@apis.io
+  - name: OpenAI
+    url: https://openai.com/

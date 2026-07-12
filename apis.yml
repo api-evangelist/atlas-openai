@@ -18,6 +18,12 @@ kind: contract
 access: 3rd-Party
 apis: []
 common:
+  - type: TrustCenter
+    url: security/atlas-openai-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/atlas-openai-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/atlas-openai-domain-security.yml
   - url: https://openai.com/index/chatgpt-atlas/
     type: Website
   - url: https://openai.com/atlas/

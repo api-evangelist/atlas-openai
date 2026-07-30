@@ -1,6 +1,17 @@
 aid: atlas-openai
 name: ChatGPT Atlas
 description: ChatGPT Atlas is OpenAI's Chromium-based AI browser, launched October 21, 2025 for macOS, with Windows, iOS, and Android announced as coming soon. It embeds ChatGPT as a sidebar assistant for page summarization, comparison, and cursor-chat text rewriting, plus an Agent Mode (paid Plus/Pro) that can browse and act on the user's behalf to book hotels, create documents, and run multi-step tasks. Consumer browser product with no publicly documented REST API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://openai.com/images/atlas-og.png
 tags:
   - AI

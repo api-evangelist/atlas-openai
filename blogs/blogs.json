@@ -10,12 +10,9 @@
     },
     {
       "source": "https://openai.com/blog",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-08-06T14:08:46Z",
-  "post_count": 91
+  "fetched": "2026-08-15T12:22:01Z",
+  "post_count": 111
 }

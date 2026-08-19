@@ -23,7 +23,7 @@ tags:
   - OpenAI
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.18'
+specificationVersion: '0.23'
 position: Consuming
 kind: contract
 access: 3rd-Party

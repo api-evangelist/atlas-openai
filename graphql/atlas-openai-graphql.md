@@ -1,1 +1,0 @@
-# ChatGPT Atlas GraphQL API
